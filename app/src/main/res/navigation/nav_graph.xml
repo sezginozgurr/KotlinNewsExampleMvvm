@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginPage4">
+    <fragment
+        android:id="@+id/loginPage4"
+        android:name="com.example.newsexampleviewmodelmvvm.newsexample.ui.LoginPage"
+        android:label="LoginPage">
+        <action
+            android:id="@+id/action_loginPage4_to_homePageFragment4"
+            app:destination="@id/homePageFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/homePageFragment4"
+        android:name="com.example.newsexampleviewmodelmvvm.newsexample.ui.HomePageFragment"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" />
+</navigation>
