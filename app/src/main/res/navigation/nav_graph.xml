@@ -17,4 +17,9 @@
         android:name="com.example.newsexampleviewmodelmvvm.newsexample.ui.HomePageFragment"
         android:label="fragment_home_page"
         tools:layout="@layout/fragment_home_page" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.newsexampleviewmodelmvvm.newsexample.ui.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
 </navigation>
